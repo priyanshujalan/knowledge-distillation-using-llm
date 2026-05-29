@@ -1,0 +1,44 @@
+{
+  "TBBT Videos": {
+    "filter_to_use": "duration < 61",
+    "download_limit": 10,
+    "links": [
+        "https://www.youtube.com/@MissJanco/shorts"
+    ]
+  },
+  "Fresh Off the boats Videos": {
+    "filter_to_use": "duration < 61",
+    "download_limit": 10,
+    "links": [
+        "https://www.youtube.com/@E4YouTube/search?query=fresh%20of%20the%20boat"
+    ]
+  },
+  "Jimmy Fallon Videos": {
+    "filter_to_use": "duration < 61",
+    "download_limit": 10,
+    "links": [
+        "https://www.youtube.com/@fallontonight/shorts"
+    ]
+  },
+  "Never have I ever Videos": {
+    "filter_to_use": "duration < 61",
+    "download_limit": 10,
+    "links": [
+        "https://www.youtube.com/@NetflixIndiaShorts/search?query=never%20have%20I%20ever"
+    ]
+  },
+  "Sidemen Videos": {
+    "filter_to_use": "duration < 61",
+    "download_limit": 50,
+    "links": [
+        "https://www.youtube.com/@SidemenShorts/shorts"
+    ]
+  },
+  "MrBeast Videos": {
+    "filter_to_use": "duration < 61",
+    "download_limit": 50,
+    "links": [
+        "https://www.youtube.com/@MrBeast/shorts"
+    ]
+  }
+}

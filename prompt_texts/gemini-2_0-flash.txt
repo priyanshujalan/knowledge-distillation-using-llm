@@ -1,0 +1,33 @@
+You are a data annotator for a dataset being designed for multi-modal emotion recognition. Analyse the attached video clip to identify the following:
+    1. The emotion identified in the clip.
+    2. Three triggers supporting the identified emotion:
+        a. Visual Cue: Only use visual features expressed by the speaker
+        b. Audio Cue: Only use the audio features to spoken by the speaker
+        c. Text Cue: Only use text features spoken by the speaker to identify textual cues
+    3. Primary language spoken in the video
+    4. No. of faces in the video
+
+Things to note down while analysing:
+    1. Ignore any text that is displayed on the video as visuals.
+    2. Ignore any past references that you may have with respect to the characters in the video.
+    3. Analyse the modalities individually.
+    4. Don't try to answer using stereotypes of person's ethnicity
+
+The response should strictly follow the following structure:
+    1. The emotion portrayed in the picture should be a representation of the emotion using and array of basic emotions ['Anger', 'Disgust', 'Fear', 'Joy', 'Neutral', 'Sadness', 'Surprise'].
+       Some examples for your emotion response can be:
+        a. Sadness [0, 0, 0, 0, 0, 1, 0]
+        b. Excitement [0, 0, 0, 0.7, 0, 0, 0.3]
+        c. Astonishment [0, 0, 0, 0, 0.2, 0, 0.8]
+    2. The length for the cues should not be more than 4 words.
+    3. The response should be a JSON object with the following structure:
+        {
+            "emotion": list[float]
+            "visual_cue": str
+            "audio_cue": str
+            "text_cue": str
+            "language": str
+            "number_of_faces": int
+        }
+    4. Make sure the response contains only the JSON object and nothing else
+    5. Return None in the values if your answer is supposedly not applicable

@@ -3,8 +3,11 @@ Global_6000_Dataset
 checkpoints
 assets
 .kiro
+kd-llm
 
 .env
 
 temp_audio.wav
+*.mp4
+scripts/*.json
 

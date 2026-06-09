@@ -15,4 +15,4 @@ def get_response(model, video_path):
         raise ValueError('Unknown model: {}'.format(model))
 
     parsed_response = TeacherResponse(**response)
-    return parsed_response.to_dict()
+    return parsed_response.model_dump()

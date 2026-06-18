@@ -1,4 +1,4 @@
-from models.teacher import gemini, qwen, nemotron, kimi
+from models.teacher import gemini, qwen, nemotron, kimi, gemma
 from models.teacher.schema import TeacherResponse
 
 
@@ -11,6 +11,8 @@ def get_response(model, video_path):
         response = nemotron.get_response(video_path)
     elif model == 'kimi':
         response = kimi.get_response(video_path)
+    elif model == 'gemma':
+        response = gemma.get_response(video_path)
     else:
         raise ValueError('Unknown model: {}'.format(model))
 

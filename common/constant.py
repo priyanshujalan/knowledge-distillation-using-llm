@@ -25,7 +25,18 @@ MODEL_PROMPT_MAPPER = {
     "gemini-2.0-flash": "prompt_texts/gemini-2_0-flash.txt",
     "qwen3.5-122b-a10b": "prompt_texts/gemini-2_0-flash.txt",
     "nemotron-nano-12b-v2-vl": "prompt_texts/gemini-2_0-flash.txt",
-    "kimi-k2.6": "prompt_texts/gemini-2_0-flash.txt"
+    "kimi-k2.6": "prompt_texts/gemini-2_0-flash.txt",
+    "gemma-4-31b-it": "prompt_texts/gemini-2_0-flash.txt",
+    "diffusiongemma-26b-a4b-it": "prompt_texts/gemini-2_0-flash.txt"
+}
+
+MODEL_API_NAME_MAPPER = {
+    "gemini-2.0-flash": "prompt_texts/gemini-2_0-flash.txt",
+    "qwen3.5-122b-a10b": "prompt_texts/gemini-2_0-flash.txt",
+    "nemotron-nano-12b-v2-vl": "prompt_texts/gemini-2_0-flash.txt",
+    "kimi-k2.6": "prompt_texts/gemini-2_0-flash.txt",
+    "gemma-4-31b-it": "prompt_texts/gemini-2_0-flash.txt",
+    "diffusiongemma-26b-a4b-it": "prompt_texts/gemini-2_0-flash.txt"
 }
 
 EMOTIONS = list(EMOTIONS_MAP.keys())
